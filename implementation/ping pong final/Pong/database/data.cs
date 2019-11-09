@@ -15,7 +15,7 @@ namespace Pong.database
         public data(string qry)
         {
             query = qry;
-            con = new SqlConnection("Data Source=DESKTOP-BHJFQRT;Initial Catalog=SUDOKO;Integrated Security=True");
+            con = new SqlConnection("Data Source=DESKTOP-4GF495K;Initial Catalog=pong;Integrated Security=True");
 
         }
 

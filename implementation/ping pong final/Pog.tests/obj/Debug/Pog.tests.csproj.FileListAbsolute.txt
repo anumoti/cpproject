@@ -1,0 +1,9 @@
+C:\Users\AI\Desktop\cpproject\implementation\ping pong final\Pog.tests\obj\Debug\Pog.tests.csprojResolveAssemblyReference.cache
+C:\Users\AI\Desktop\cpproject\implementation\ping pong final\Pog.tests\bin\Debug\Pog.tests.dll
+C:\Users\AI\Desktop\cpproject\implementation\ping pong final\Pog.tests\bin\Debug\Pog.tests.pdb
+C:\Users\AI\Desktop\cpproject\implementation\ping pong final\Pog.tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\AI\Desktop\cpproject\implementation\ping pong final\Pog.tests\bin\Debug\Pong.exe
+C:\Users\AI\Desktop\cpproject\implementation\ping pong final\Pog.tests\bin\Debug\Pong.pdb
+C:\Users\AI\Desktop\cpproject\implementation\ping pong final\Pog.tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Users\AI\Desktop\cpproject\implementation\ping pong final\Pog.tests\obj\Debug\Pog.tests.dll
+C:\Users\AI\Desktop\cpproject\implementation\ping pong final\Pog.tests\obj\Debug\Pog.tests.pdb

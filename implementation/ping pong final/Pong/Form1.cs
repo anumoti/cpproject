@@ -286,11 +286,11 @@ namespace Pong
                     ball.Location = new Point(ball.Location.X - _spd, ball.Location.Y);
                     if (ballVel == 0)
                     {
-                        ballVel = 2;
+                        ballVel = 5;
                     }
                     else if (ballVel == 1)
                     {
-                        ballVel = 3;
+                        ballVel = 2;
                     }
                     incSpeed();
                 }

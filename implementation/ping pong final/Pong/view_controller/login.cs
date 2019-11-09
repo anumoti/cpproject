@@ -7,12 +7,13 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using Pong.Module;
 
 namespace Pong.view_controller
 {
     public partial class login : Form
     {
-        Users u = new Users();
+        Validation vd = new Validation();
         public login()
         {
             InitializeComponent();
@@ -32,10 +33,8 @@ namespace Pong.view_controller
 
         private void btnlogin_Click(object sender, EventArgs e)
         {
-            u.username = txtuname.Text;
-            u.password = txtpass.Text;
-            u.id = loginsystem(u.username, u.password);
-            if (u.id > 0)
+           bool a= vd.checkcredentials(txtuname.Text,txtpass.Text);
+            if (a==true)
             {
                 Form id = new GameForm();
                 id.Show();
@@ -47,22 +46,7 @@ namespace Pong.view_controller
             }
         }
 
-        public int loginsystem(string uname, string pass)
-        {
-            string name = uname;
-            string password = pass;
-            string query = "select * from tbl_users where username='" + name + "' and password='" + password + "'";
-            data db = new data(query);
-            DataTable dt = db.getdatatable();
-            if (dt.Rows.Count == 1)
-            {
-                return Convert.ToInt32(dt.Rows[0]["id"]);
-            }
-            else
-            {
-                return 0;
-            }
-        }
+       
 
         private void login_Load(object sender, EventArgs e)
         {
